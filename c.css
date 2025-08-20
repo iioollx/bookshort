@@ -1,0 +1,76 @@
+.outbox{
+    width: 100%;
+    height: 300px;
+    background-color: #A2AF9B ;
+}
+
+
+
+.outbox{
+    margin-top: 10px;
+    border: 3px solid #DCCFC0;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+    
+    
+}
+h2 {
+    color: white;
+    text-align: right;
+
+}
+body{
+    background-color: #F3E2D4;
+}
+
+img{
+    position: absolute;
+    height: 180px;
+    margin-top: 75px;
+    margin-left: 77%;
+    border-radius: 25px;
+    border: 2px solid whitesmoke;
+    transition: transform 0.3s ease; /* عشان تكون الحركة سلسة */
+}
+
+
+img:hover {
+  transform: scale(1.1); /* يكبر الصورة بنسبة 10% */
+}
+div>h2{
+    text-align: center;
+    transition: transform 0.3s ease; /* عشان تكون الحركة سلسة */
+}
+h2:hover {
+  transform: scale(1.1); /* يكبر الصورة بنسبة 10% */
+}
+.inbox{
+    margin-top: 50px;
+    height: 100px;
+    margin-right: 30%;
+}
+p{
+    color: aliceblue;
+    text-align: right;
+    font-size: 1.8em;
+    margin: 0;
+    transition: transform 0.3s ease; /* عشان تكون الحركة سلسة */
+}
+.inbox>p:hover {
+  transform: scale(1.1); /* يكبر الصورة بنسبة 10% */
+}
+*{
+      font-family: "El Messiri", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.book-title { color: white; text-align: center; }
+.book-title a {
+  color: inherit;          /* ياخذ لون h2 */
+  text-decoration: none;   /* بدون خط */
+}
+.book-title a:hover { text-decoration: none; }
